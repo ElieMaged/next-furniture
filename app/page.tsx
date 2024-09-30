@@ -1,10 +1,11 @@
-import Image from "next/image";
-import Navbar from '../resources/components/Navbar'
+import Blockone from '@/app/resources/components/Block-one'
 
 export default function Home() {
-  return (
-    <>
-    HIII
-    </>
-  );
+  return(
+    <div className='text-white	mt-20'>
+
+
+<Blockone />
+    </div>
+  )
 }
